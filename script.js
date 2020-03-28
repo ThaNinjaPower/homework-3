@@ -14,7 +14,7 @@ function generatePassword() {
   var lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numbers = "0123456789";
-  var specialChars = "!#$%&()+,-./:;<=>?@[\]^_`{|}~";
+  var specialChars = "\"!#$%&()+,-./:;<=>?@[\]^_`{|}~";
 
   // Random password length between 8 and 128, both inclusive
   var passwordLength;
