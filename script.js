@@ -44,25 +44,25 @@ function generatePassword() {
     var charType = Math.floor(Math.random() * 4);
 
     if(charType === 0 && lowercasePrompt === true) {
-      var randomChar = lowercaseLetters.charAt(Math.random() * lowercaseLetters.length);
+      var randomChar = lowercaseLetters.charAt(Math.floor(Math.random() * lowercaseLetters.length));
       generatedPassword = generatedPassword.concat(randomChar);
       console.log(generatedPassword);
     }
 
     else if(charType === 1 && uppercasePrompt === true) {
-      var randomChar = uppercaseLetters.charAt(Math.random() * uppercaseLetters.length);
+      var randomChar = uppercaseLetters.charAt(Math.floor(Math.random() * uppercaseLetters.length));
       generatedPassword = generatedPassword.concat(randomChar);
       console.log(generatedPassword);
     }
 
     else if(charType === 2 && numberPrompt === true) {
-      var randomChar = numbers.charAt(Math.random() * numbers.length);
+      var randomChar = numbers.charAt(Math.floor(Math.random() * numbers.length));
       generatedPassword = generatedPassword.concat(randomChar);
       console.log(generatedPassword);
     }
 
     else if(charType === 3 && specialPrompt === true) {
-      var randomChar = specialChars.charAt(Math.random() * specialChars.length);
+      var randomChar = specialChars.charAt(Math.floor(Math.random() * specialChars.length));
       generatedPassword = generatedPassword.concat(randomChar);
       console.log(generatedPassword);
     }
