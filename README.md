@@ -1,4 +1,4 @@
-# Homework 3: Kevin's Password Generator App
+# Homework 3: Password Generator App
 Contains three files: index.html, style.css, and script.js.
 
 Most of the password generation comes from script.js.
